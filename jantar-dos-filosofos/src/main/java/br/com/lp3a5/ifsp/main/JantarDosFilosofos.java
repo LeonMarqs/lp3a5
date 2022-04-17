@@ -25,8 +25,7 @@ public class JantarDosFilosofos {
 				filosofos[i] = new Filosofo(garfoEsquerdo, garfoDireito);
 			}
 
-			Thread t
-					= new Thread(filosofos[i], "Filósofo " + (i + 1));
+			Thread t = new Thread(filosofos[i], "Filósofo " + (i + 1));
 			t.start();
 		}
 	}

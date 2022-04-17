@@ -11,8 +11,7 @@ public class Filosofo implements Runnable {
 	}
 
 	private void doAction(String action) throws InterruptedException {
-		System.out.println(
-				Thread.currentThread().getName() + " " + action);
+		System.out.println(Thread.currentThread().getName() + " " + action);
 		Thread.sleep(((int) (Math.random() * 100)));
 	}
 
@@ -24,24 +23,16 @@ public class Filosofo implements Runnable {
 				// thinking
 				doAction(System.nanoTime() + ": Pensando");
 				synchronized (GarfoDaEsquerda) {
-					doAction(
-							System.nanoTime()
-									+ ": Pegou garfo esquerdo");
+					doAction(System.nanoTime() + ": Pegou garfo esquerdo");
 					synchronized (GarfoDaDireita) {
 						// eating
-						doAction(
-								System.nanoTime()
-										+ ": Pegou o garfo da direita - COMENDO");
+						doAction(System.nanoTime() + ": Pegou o garfo da direita - COMENDO");
 
-						doAction(
-								System.nanoTime()
-										+ ": Devolveu o garfo da direita");
+						doAction(System.nanoTime() + ": Devolveu o garfo da direita");
 					}
 
 					// Back to thinking
-					doAction(
-							System.nanoTime()
-									+ ": Devolveu o garfo da esquerda. Voltou a pensar");
+					doAction(System.nanoTime() + ": Devolveu o garfo da esquerda. Voltou a pensar");
 				}
 			}
 		} catch (InterruptedException e) {
