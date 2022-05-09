@@ -10,6 +10,7 @@ Portfólio de exercícios de Linguagem de Programação 3 - IFSP
   
 ## Repositórios
 * [Jantar dos Filósofos](https://github.com/LeonMarqs/lp3a5/tree/main/jantar-dos-filosofos)
+* [Aula 7](https://github.com/LeonMarqs/lp3a5/tree/main/aula-7-prog-funcional)
 
 ## Referências
 * [Jantar dos Filósofos](https://www.baeldung.com/java-dining-philoshophers)
