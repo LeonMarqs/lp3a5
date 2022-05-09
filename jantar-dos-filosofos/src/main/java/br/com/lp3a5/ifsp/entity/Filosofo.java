@@ -20,18 +20,18 @@ public class Filosofo implements Runnable {
 		try {
 			while (true) {
 
-				// thinking
+				// Pensando
 				doAction(System.nanoTime() + ": Pensando");
 				synchronized (GarfoDaEsquerda) {
 					doAction(System.nanoTime() + ": Pegou garfo esquerdo");
 					synchronized (GarfoDaDireita) {
-						// eating
+						// Comendo
 						doAction(System.nanoTime() + ": Pegou o garfo da direita - COMENDO");
 
 						doAction(System.nanoTime() + ": Devolveu o garfo da direita");
 					}
 
-					// Back to thinking
+					// Voltar a pensar
 					doAction(System.nanoTime() + ": Devolveu o garfo da esquerda. Voltou a pensar");
 				}
 			}
