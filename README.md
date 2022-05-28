@@ -9,9 +9,13 @@ Portfólio de exercícios de Linguagem de Programação 3 - IFSP
 <p>
   
 ## Repositórios
+
 * [Jantar dos Filósofos](https://github.com/LeonMarqs/lp3a5/tree/main/jantar-dos-filosofos)
+* [Produtor-Consumidor](https://github.com/LeonMarqs/lp3a5/tree/main/produtor-consumidor/src/br/edu/ifsp/prodconsum)
 * [Aula 7 - Programação Funcional](https://github.com/LeonMarqs/lp3a5/tree/main/aula-7-prog-funcional)
+* [Aula 8 - Exception](https://github.com/LeonMarqs/lp3a5/tree/main/aula-8-exceptions/src/br/edu/ifsp/exception)
 * [Aula 9 - Reflection](https://github.com/LeonMarqs/lp3a5/tree/main/aula9-reflection/src/br/edu/ifsp/reflection)
 
 ## Referências
 * [Jantar dos Filósofos](https://www.baeldung.com/java-dining-philoshophers)
+* [Produtor Consumidor](https://www.geeksforgeeks.org/producer-consumer-solution-using-threads-java/)
